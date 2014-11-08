@@ -1,4 +1,4 @@
-OHKGOD
+OHKGOL
 ======
 
 HackSC Game
