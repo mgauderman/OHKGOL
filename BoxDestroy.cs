@@ -8,10 +8,10 @@ public class BoxDestroy : MonoBehaviour {
 
 	// Update is called once per frame
 
-	void OnCollisonEnter(Collision collision){
-		Debug.Log ("I have collided with " + collision.gameObject.name);
+	void OnCollisionEnter(Collision col){
+		Debug.Log ("I have collided with " + col.gameObject.name);
 
-			Destroy (collision.gameObject);
-		health--;
+			Destroy(col.gameObject);
+		health--;	
 }
 }
