@@ -1,4 +1,0 @@
-OHKGOL
-======
-
-HackSC Game
