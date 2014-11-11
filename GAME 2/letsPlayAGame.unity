@@ -1002,7 +1002,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0df9a9d86fd853489f8817ca5901293, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runSpeed: 10
+  runSpeed: 50
   strafeSpeed: 4
   jumpPower: 12
   walkByDefault: 1
@@ -10141,7 +10141,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: .0199999996
-  far clip plane: 400
+  far clip plane: 3000
   field of view: 60
   orthographic: 0
   orthographic size: 100
@@ -12507,7 +12507,7 @@ MonoBehaviour:
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
   m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 80
+  m_DetailObjectDistance: 250
   m_DetailObjectDensity: 1
   m_HeightmapPixelError: 5
   m_SplatMapDistance: 1000
@@ -13875,7 +13875,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400006, guid: bab88c99243bd1a46ab85fde041a9459, type: 2}
       propertyPath: runSpeed
-      value: 10
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 11400006, guid: bab88c99243bd1a46ab85fde041a9459, type: 2}
       propertyPath: advanced.highFrictionMaterial
@@ -13890,6 +13890,10 @@ Prefab:
     - target: {fileID: 5400000, guid: bab88c99243bd1a46ab85fde041a9459, type: 2}
       propertyPath: m_CollisionDetection
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: bab88c99243bd1a46ab85fde041a9459, type: 2}
+      propertyPath: far clip plane
+      value: 3000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bab88c99243bd1a46ab85fde041a9459, type: 2}
